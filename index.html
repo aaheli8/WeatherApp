@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,800&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </head>
+  <body>
+
+     <div class="card">
+       <div class="search">
+         <input type="text" class="search-bar" placeholder="search city" >
+         <button type="button" name="button"><i class="fas fa-search"></i></button>
+       </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Howrah</h2>
+        <h1 class="temp">29 °C</h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/10d.png" alt="" class="icon">
+         <div class="description">Cloudy</div>
+         </div>
+        <div class="humidity">60%
+          </div>
+          <div class="wind">6.2km/hr
+          </div>
+        </div>
+       </div>
+      </div>
+      	<script src="app.js"></script>
+  </body>
+</html>

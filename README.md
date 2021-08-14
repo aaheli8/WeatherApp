@@ -1,2 +1,2 @@
 # WeatherApp
- Code Reference: DenverCoder1/weather-app-tutorial
+ Code Reference: `DenverCoder1/weather-app-tutorial`
